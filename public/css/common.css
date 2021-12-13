@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(90deg, rgba(222,222,222,1) 12%, rgba(235,235,235,1) 53%);
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.centered{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.goback-btn{
+    position: relative;
+    top: 10px;
+}
+
+.display-5 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+  
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lh-1-5{
+    line-height: 1.5em;
+}
+
+.studlist-tbl tr td{
+    vertical-align: middle;
+}
+
+.sort-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.sort-link a:hover{
+    color:#428BCA;
+}
